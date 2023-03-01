@@ -9,7 +9,7 @@ Wednesday 1 March 2023
 
 2. Go into the `tasks` directory and look at the contents of the `part1` folder. This folder contains a file called `app.R`. This is the file that contains the code for the Shiny app. 
   - Open this file in RStudio and run the app by clicking the "Run App" button in the top right corner of the script window.
-  - I you're using a different editor, you can run the app from R command line using the `runApp` function with the app directory as an argument. In this case, run `runApp("tasks/part1")` in the R command line from the parent directory.
+  - I you're using a different editor, you can run the app from R command line using the `runApp` function with the app directory as an argument. In this case, run `shiny::runApp("tasks/part1")` in the R command line from the parent directory.
 
 3. Identify the different parts of a Shiny app:
   - `ui` object - the  user interface
